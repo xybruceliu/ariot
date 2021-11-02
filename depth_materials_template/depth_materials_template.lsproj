@@ -1,0 +1,796 @@
+{
+    "lens_id": "",
+    "document_id": "ljF7tUKE8cWCWSPVBhLK",
+    "original_document_id": "4PXUfYVYKGPUzWA7Vc5w",
+    "version": "24",
+    "lastChanged": "0",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
+    "videoPreviewUpdateTime": "",
+    "isReadOnly": "false",
+    "isAutoSaved": "false",
+    "studioVersion": {
+        "createdWith": {
+            "type": "Public",
+            "major": "3",
+            "minor": "0",
+            "patch": "0",
+            "build": "0"
+        },
+        "lastSavedWith": {
+            "type": "Public",
+            "major": "3",
+            "minor": "0",
+            "patch": "0",
+            "build": "0"
+        }
+    },
+    "view": {
+        "ResourceUiComponent": {
+            "collapsedList": [
+                [
+                    [
+                        "Materials",
+                        "Depth Sweeping"
+                    ],
+                    [
+                        "Materials",
+                        "Depth of Field"
+                    ],
+                    [
+                        "Materials",
+                        "Edge Detection"
+                    ],
+                    [
+                        "Scripts"
+                    ],
+                    [
+                        "Scripts",
+                        "DepthEffectController"
+                    ],
+                    [
+                        "Textures"
+                    ],
+                    [
+                        "Textures",
+                        "Depth Texture"
+                    ],
+                    [
+                        "Textures",
+                        "Echopark"
+                    ],
+                    [
+                        "Textures",
+                        "Echopark",
+                        "Diff"
+                    ],
+                    [
+                        "Textures",
+                        "Echopark",
+                        "Specular"
+                    ],
+                    [
+                        "Textures",
+                        "PlaceholderTexture"
+                    ],
+                    [
+                        "Textures",
+                        "Screen Texture"
+                    ]
+                ]
+            ]
+        },
+        "SceneTreeUiComponent": {
+            "collapsedList": [
+                [
+                    "1517446348227994:84813",
+                    "1593008059087186:889414",
+                    "1593008060042218:889661",
+                    "1593008060957162:890200"
+                ]
+            ]
+        },
+        "MetaInfoUIComponent": {
+            "icon_hash": "43fbb3c7a8bc91443bfde03d69247366",
+            "icon_path": "icon.png",
+            "video_preview_path": "preview.mp4",
+            "hints": [
+                ""
+            ],
+            "lens": "Depth Materials",
+            "applicability": "3",
+            "lens_descriptors": ""
+        },
+        "PreviewUiComponent": {
+            "preview_descriptor": {
+                "is_capture": "0",
+                "camera_type": "1"
+            },
+            "show_snap_ui": "true",
+            "show_sponsored_ui": "false",
+            "preview_images_project_config": {
+                "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Images\/Person 1.jpg",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/Images\/Pavement\/Pavement.jpg",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_videos_project_config": {
+                "back_preview_id": "project:Videos\/depth-02.webm",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Videos\/Open Mouth Person 4.webm",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/Videos\/Climbing\/Climbing.webm",
+                "spectacles_preview_is_favorite": "false"
+            }
+        },
+        "InspectorUiComponent": {
+            "collapsedList": [
+                ""
+            ]
+        },
+        "Material::UiComponent": {
+            "active_graph_asset": "1593008058701363:889255"
+        }
+    },
+    "model": {
+        "IResourceManager": {
+            "list": [
+                {
+                    "resId": "1",
+                    "uid": "1:1",
+                    "name": "Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "2",
+                    "uid": "2:2",
+                    "name": "Camera Input",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "10",
+                    "uid": "1588296316843646:534374",
+                    "name": "Files\/File3.jpeg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "11",
+                    "uid": "1588296316857901:534385",
+                    "name": "Files\/File5.jpeg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "12",
+                    "uid": "1593008058701363:889255",
+                    "name": "Files\/File8",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "13",
+                    "uid": "1593008058990880:889292",
+                    "name": "Files\/File10.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "14",
+                    "uid": "1593008059004456:889350",
+                    "name": "Depth Texture",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "15",
+                    "uid": "1593008059006141:889364",
+                    "name": "Screen Texture",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "16",
+                    "uid": "1593008059026280:889398",
+                    "name": "Files\/File11.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "17",
+                    "uid": "1593008059797098:889596",
+                    "name": "Files\/File13",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "20",
+                    "uid": "1593008060729284:890151",
+                    "name": "Files\/File16",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                }
+            ],
+            "MaterialUpdateManager": {
+                "unrecognizedMaterials": ""
+            }
+        },
+        "InspectorComponent": {
+            "Component": {
+                "EyeColorVisual": {
+                    "uidData": "",
+                    "generalData": ""
+                },
+                "FaceStretchVisual": {
+                    "uidsToFeatureNamesWithIntensity": ""
+                },
+                "ScreenTransform": {
+                    "uidData": "",
+                    "generalData": ""
+                }
+            }
+        },
+        "RenderOrderComponent": {
+            "autoRenderOrder": {
+                "0": "1517446348227994:84813",
+                "1": "1517446348228144:84822",
+                "2": "1528843813151434:5126",
+                "3": "1593008059087186:889414",
+                "4": "1593008059087535:889416",
+                "5": "1593008059171495:889469",
+                "6": "1593008060042218:889661",
+                "7": "1593008060042520:889664",
+                "8": "1593008060097224:889763",
+                "9": "1593008060957162:890200",
+                "10": "1593008060957683:890204",
+                "11": "1593008061021006:890323"
+            }
+        },
+        "LayerComponent": {
+            "nextLayerId": "2",
+            "showOrthographicLayer": "false",
+            "layersInfo": [
+                {
+                    "layerId": "0",
+                    "layerName": "Default Layer",
+                    "layerMask": "1",
+                    "colorCode": "20"
+                },
+                {
+                    "layerId": "1",
+                    "layerName": "Orthographic Layer",
+                    "layerMask": "1048576",
+                    "colorCode": "21"
+                }
+            ]
+        },
+        "IFileManager": {
+            "pathes": [
+                {
+                    "k": "3",
+                    "v": "Files\/File3.jpeg"
+                },
+                {
+                    "k": "4",
+                    "v": "Files\/File4.jpeg"
+                },
+                {
+                    "k": "5",
+                    "v": "Files\/File5.jpeg"
+                },
+                {
+                    "k": "6",
+                    "v": "Files\/File6.jpeg"
+                },
+                {
+                    "k": "7",
+                    "v": "Files\/File7.hdr"
+                },
+                {
+                    "k": "8",
+                    "v": "Files\/File8"
+                },
+                {
+                    "k": "9",
+                    "v": "Files\/File9.lsmat"
+                },
+                {
+                    "k": "10",
+                    "v": "Files\/File10.js"
+                },
+                {
+                    "k": "11",
+                    "v": "Files\/File11.jpg"
+                },
+                {
+                    "k": "12",
+                    "v": "Files\/File12.jpg"
+                },
+                {
+                    "k": "13",
+                    "v": "Files\/File13"
+                },
+                {
+                    "k": "14",
+                    "v": "Files\/File14.lsmat"
+                },
+                {
+                    "k": "16",
+                    "v": "Files\/File16"
+                },
+                {
+                    "k": "17",
+                    "v": "Files\/File17.lsmat"
+                }
+            ]
+        },
+        "WorldComponent": {
+            "sceneFile": "scene.scn",
+            "sceneType": "binaryScene"
+        }
+    },
+    "controller": {
+        "IResourceController": {
+            "public": {
+                "pathes": [
+                    {
+                        "k": "967",
+                        "v": "Textures\/Echopark.hdr"
+                    },
+                    {
+                        "k": "9844",
+                        "v": "Materials\/Depth Sweeping.lsmat"
+                    },
+                    {
+                        "k": "9845",
+                        "v": "Scripts\/DepthEffectController.js"
+                    },
+                    {
+                        "k": "9846",
+                        "v": "Textures"
+                    },
+                    {
+                        "k": "9847",
+                        "v": "Textures\/PlaceholderTexture.jpg"
+                    },
+                    {
+                        "k": "9848",
+                        "v": "Materials\/Edge Detection.lsmat"
+                    },
+                    {
+                        "k": "9850",
+                        "v": "Materials\/Depth of Field.lsmat"
+                    },
+                    {
+                        "k": "9851",
+                        "v": "Materials"
+                    },
+                    {
+                        "k": "9852",
+                        "v": "Scripts"
+                    }
+                ],
+                "hashes": [
+                    {
+                        "k": "1",
+                        "v": "671afbc1d6810060ccbaac866a91cfa1"
+                    },
+                    {
+                        "k": "2",
+                        "v": "8e599835d0d45c5879eafb1f474469cd"
+                    },
+                    {
+                        "k": "967",
+                        "v": "0cf0e87a54f33218fcf92a12d7f0ede2"
+                    },
+                    {
+                        "k": "9844",
+                        "v": "e1b00456d4ed7b757fec70a288d5e248"
+                    },
+                    {
+                        "k": "9845",
+                        "v": "3f3e15a2ce7485ec2c1185831343b6f9"
+                    },
+                    {
+                        "k": "9847",
+                        "v": "cbd091f7269ffd36c51246c8db7fafea"
+                    },
+                    {
+                        "k": "9848",
+                        "v": "94a83f504037d5d1c3f28850e6e2e1c8"
+                    },
+                    {
+                        "k": "9849",
+                        "v": "3e6572335eb1c29cb04c530e10121421"
+                    },
+                    {
+                        "k": "9850",
+                        "v": "67784f97cc67f701aa7f6050b121894e"
+                    }
+                ],
+                "publicState": {
+                    "tree": {
+                        "isFolder": "true",
+                        "lastModified": "2020-06-24T08:18:12",
+                        "name": "Public",
+                        "hash": "fca1bbb09c25e220eee104409235a472",
+                        "children": [
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2020-06-24T08:18:12",
+                                "name": "Textures",
+                                "hash": "cc1b5142680ea345a9a80480cfaad6c8",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-24T07:47:00",
+                                        "name": "Echopark.hdr",
+                                        "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-24T07:47:00",
+                                        "name": "PlaceholderTexture.jpg",
+                                        "hash": "cbd091f7269ffd36c51246c8db7fafea",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-24T07:47:00",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2020-06-24T08:19:34",
+                                "name": "Materials",
+                                "hash": "255c871714adce56019065957dbf4091",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-24T08:19:34",
+                                        "name": "Depth Sweeping.lsmat",
+                                        "hash": "9250f923d424f34f64ff77b524ca1332",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-24T08:19:34",
+                                        "name": "Depth of Field.lsmat",
+                                        "hash": "3bc7a34d48362cc9cc94fc3b67159f72",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-24T08:19:34",
+                                        "name": "Edge Detection.lsmat",
+                                        "hash": "b90701ba6fdcf8a298d8eb3ad580adf1",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-24T07:47:00",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2020-06-24T08:18:12",
+                                "name": "Scripts",
+                                "hash": "528a2d39a3be8f8115c18891a193406d",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-24T07:47:00",
+                                        "name": "DepthEffectController.js",
+                                        "hash": "3f3e15a2ce7485ec2c1185831343b6f9",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-24T07:47:00",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-06-24T07:47:00",
+                                "name": "folder.lock",
+                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            }
+                        ]
+                    }
+                },
+                "complexResources": ""
+            },
+            "tree": {
+                "name": "",
+                "type": "0",
+                "subtype": "-1",
+                "resourceId": "-1",
+                "dependency": "0",
+                "uid": "-1:-1",
+                "fileId": "18446744073709551615",
+                "originalId": "18446744073709551615",
+                "publicId": "18446744073709551615",
+                "source": "",
+                "additional": "",
+                "resources": [
+                    {
+                        "name": "Textures",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "9846",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Depth Texture",
+                                "type": "1",
+                                "subtype": "15",
+                                "resourceId": "14",
+                                "dependency": "0",
+                                "uid": "1593008059004456:889350",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Screen Texture",
+                                "type": "1",
+                                "subtype": "16",
+                                "resourceId": "15",
+                                "dependency": "0",
+                                "uid": "1593008059006141:889364",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Echopark",
+                                "type": "9",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "2",
+                                "uid": "-1:-1",
+                                "fileId": "7",
+                                "originalId": "18446744073709551615",
+                                "publicId": "967",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Diff",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "10",
+                                        "dependency": "1",
+                                        "uid": "1588296316843646:534374",
+                                        "fileId": "3",
+                                        "originalId": "4",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Specular",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "11",
+                                        "dependency": "1",
+                                        "uid": "1588296316857901:534385",
+                                        "fileId": "5",
+                                        "originalId": "6",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Render Target",
+                                "type": "1",
+                                "subtype": "1",
+                                "resourceId": "1",
+                                "dependency": "0",
+                                "uid": "1:1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Device Camera Texture",
+                                "type": "1",
+                                "subtype": "3",
+                                "resourceId": "2",
+                                "dependency": "0",
+                                "uid": "2:2",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "PlaceholderTexture",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "16",
+                                "dependency": "0",
+                                "uid": "1593008059026280:889398",
+                                "fileId": "11",
+                                "originalId": "12",
+                                "publicId": "9847",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Scripts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "9852",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "DepthEffectController",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "13",
+                                "dependency": "0",
+                                "uid": "1593008058990880:889292",
+                                "fileId": "10",
+                                "originalId": "18446744073709551615",
+                                "publicId": "9845",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Materials",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "9851",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Depth Sweeping",
+                                "type": "2",
+                                "subtype": "1",
+                                "resourceId": "12",
+                                "dependency": "0",
+                                "uid": "1593008058701363:889255",
+                                "fileId": "8",
+                                "originalId": "9",
+                                "publicId": "9844",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Edge Detection",
+                                "type": "2",
+                                "subtype": "1",
+                                "resourceId": "17",
+                                "dependency": "0",
+                                "uid": "1593008059797098:889596",
+                                "fileId": "13",
+                                "originalId": "14",
+                                "publicId": "9848",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Depth of Field",
+                                "type": "2",
+                                "subtype": "1",
+                                "resourceId": "20",
+                                "dependency": "0",
+                                "uid": "1593008060729284:890151",
+                                "fileId": "16",
+                                "originalId": "17",
+                                "publicId": "9850",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "InspectorController": {
+            "selection": {
+                "resources": [
+                    {
+                        "uid": "1593008058701363:889255",
+                        "path_list": [
+                            "Materials",
+                            "Depth Sweeping"
+                        ]
+                    }
+                ]
+            }
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": "",
+            "17": "",
+            "18": "",
+            "19": "",
+            "20": "",
+            "22": "",
+            "23": "",
+            "24": "",
+            "25": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": ""
+        }
+    }
+}
